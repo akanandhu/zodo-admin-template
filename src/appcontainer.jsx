@@ -13,7 +13,7 @@ const AppContainer = function (props) {
 
 
   return (
-    <Router basename= "/react/template">
+    <Router basename= "/">
       <>
         <Route render={(props) => <Header {...props} />} />
         <Routes>

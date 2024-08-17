@@ -132,7 +132,7 @@ const Approuter = () => {
   // const config = "/react/template"
   return (
     <>
-      <BrowserRouter basename="/react/template">
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/login" element={<Login />} />
